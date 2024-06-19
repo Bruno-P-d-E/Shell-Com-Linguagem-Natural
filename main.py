@@ -15,7 +15,7 @@ resultado = ''''''
 stream = client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[{"role": "system", "content": '''
-               Agora Você é programdo apenas para fazer código python. Ou seja você não dever retonar nada além de código python.
+               Agora Você é programdo apenas para fazer código python. Ou seja você não deve retonar nada além de código python.
                
                '''},
               {"role":"user", "content": f"Apenas em códigos python, nada a mais: {solicitacao}"}
